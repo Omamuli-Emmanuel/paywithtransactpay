@@ -49,9 +49,9 @@ val intent = PayWithTransactpay.newIntent(
     apiKey = "your_api_key_here",
     EncryptionKey = "your_encryption_key_here",
     baseUrl = "https://api.yourdomain.com/",
-    initiatingActivityClass = MainActivity::class.java,
-    successClass = Success::class.java,
-    failureClass = Failed::class.java
+    initiatingActivityClass = MainActivity::class.java, //redirect user when the user cancels the transaction
+    successClass = Success::class.java, // redirect user when transaction is successful
+    failureClass = Failed::class.java // redirect user when transaction fails for any reason
 )
 ```
 
