@@ -105,7 +105,7 @@ class MainActivity : AppCompatActivity() {
                 firstName = "John",
                 lastName = "Doe",
                 phone = "+1234567890",
-                amount = 1000.0,
+                amount = "1000.0",
                 email = "johndoe@example.com",
                 apiKey = "your_api_key_here",
                 EncryptionKey = "your_encryption_key_here",
